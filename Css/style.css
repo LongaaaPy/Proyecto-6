@@ -1,0 +1,37 @@
+
+body {
+    background-color: rgb(118, 201, 212);
+}
+
+.puntaje {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.item {
+    background-color: rgb(212, 211, 211);
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+    -webkit-mask-image: url("../Img/star-svgrepo-com\ \(1\).svg");
+    mask-image: url("../Img/star-svgrepo-com\ \(1\).svg");
+    background-color: rgb(198, 198, 198);
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+    -webkit-mask-image: url(../IMG/star-svgrepo-com\ \(1\).svg);
+    mask-image: url(../IMG/star-svgrepo-com\ \(1\).svg);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+
+.item.selec {
+    background-color: yellow;
+}
+
